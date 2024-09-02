@@ -1,0 +1,47 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+:root {
+  /* Colors */
+  /* Brand Colors */
+  --snitap-sun: #FFCD1E;
+  --snitap-sky-mid: #06B6D4;
+  --snitap-sky-light: #67e8f9;
+  --snitap-joy-mid: #DB2777;
+  --snitap-joy-light: #f472b6;
+  --snitap-leaf-mid: #16a34a;
+
+  /* Base Colors */
+  --text: #000;
+  --highlights: #000;
+  --background: #fafafa;
+
+  --ff-base: "Montserrat", sans-serif;
+  --text-base: 1rem;
+  --text-sm: 0.875rem;
+  --text-lg: 2.5rem;
+  --text-xlg: 4rem;
+
+  
+}
+
+html, button {
+  font: 500 1rem/1.5 var(--ff-base);
+}
+
+h1, h2 {
+  font-family: "Syne", sans-serif; 
+}
+
+h1 {
+  font-size: var(--text-xlg);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--text-lg);
+  line-height: 1.2;
+}
