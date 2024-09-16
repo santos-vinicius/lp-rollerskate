@@ -7,18 +7,18 @@ header {
   align-items: center;
   justify-content: space-between;
 
-  & img {
+  img {
     width: 2rem;
     height: 2rem;
 
     transition: transform 500ms;
   }
 
-  & img[src*="logo"]:hover {
+  img[src*="logo"]:hover {
     transform: rotate(90deg);
   }
 
-  & img[src*="shopping"]:hover {
+  img[src*="shopping"]:hover {
     transform: rotate(-30deg)
   }
 
